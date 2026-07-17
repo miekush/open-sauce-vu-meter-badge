@@ -1,0 +1,140 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default/CMakeFiles/4.3.3/CMakeSystem.cmake"
+		},
+		{
+			"path" : ".generated/toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default/CMakeFiles/4.3.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeASMCompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/Platform/Generic.cmake"
+		},
+		{
+			"path" : ".generated/overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"path" : ".generated/overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/mikek/.mplab/app-finder/apps/cmake/v4.3.3/cmake-4.3.3-windows-x86_64/share/cmake-4.3/Modules/CMakeTestASMCompiler.cmake"
+		},
+		{
+			"path" : ".generated/main.cmake"
+		},
+		{
+			"path" : ".generated/rule.cmake"
+		},
+		{
+			"path" : ".generated/file.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default",
+		"source" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/cmake/pic16f17576_open_sauce_badge_v1/default"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

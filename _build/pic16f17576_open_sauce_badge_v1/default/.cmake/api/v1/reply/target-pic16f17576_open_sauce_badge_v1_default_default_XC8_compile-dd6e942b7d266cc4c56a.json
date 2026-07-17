@@ -1,0 +1,342 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./56748195cdc0592db37a74a8e9fba7ab/config.mcc/main.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/adc/src/adc.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/opa/src/opa1.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/opa/src/opa2.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/power/src/power.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/system/src/clock.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/system/src/config_bits.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/system/src/interrupt.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/system/src/pins.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/system/src/system.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/timer/src/delay.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/timer/src/tmr0.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir/./c55abe7b03cbe3c4b0b981910a5106ee/uart/src/eusart1.c.p1"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"pic16f17576_open_sauce_badge_v1_default_default_XC8_compile_rule",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 5,
+					"fragment" : "-c"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=16F17576"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mdfp=C:/Users/mikek/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-short-double"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-short-float"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-maddrqual=ignore"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mwarn=-3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-msummary=-psect,-class,+mem,-hex,-file"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ginhx32"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wl,--data-init"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-keep-startup"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-osccal"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-resetbits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-save-resetbits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-download"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-stackcall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-default-config-bits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c99"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-gdwarf-3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-const-data-in-config-mapped-progmem"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mstack=compiled:auto:auto"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "XPRJ_default=default"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__16F17576__"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"id" : "pic16f17576_open_sauce_badge_v1_default_default_XC8_compile::@6890427a1f51a3e7e1df",
+	"name" : "pic16f17576_open_sauce_badge_v1_default_default_XC8_compile",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/adc/src/adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/opa/src/opa1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/opa/src/opa2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/power/src/power.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/system/src/clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/system/src/config_bits.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/system/src/interrupt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/system/src/pins.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/system/src/system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/timer/src/delay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/timer/src/tmr0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/config.mcc/mcc_generated_files/uart/src/eusart1.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

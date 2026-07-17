@@ -1,0 +1,4 @@
+C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default/CMakeFiles/pic16f17576_open_sauce_badge_v1_default_default_XC8_compile.dir
+C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default/CMakeFiles/pic16f17576_open_sauce_badge_v1_default_image_M3Vl9g3D.dir
+C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default/CMakeFiles/edit_cache.dir
+C:/Users/mikek/Documents/MPLAB/pic16f17576_open_sauce_badge_v1/_build/pic16f17576_open_sauce_badge_v1/default/CMakeFiles/rebuild_cache.dir

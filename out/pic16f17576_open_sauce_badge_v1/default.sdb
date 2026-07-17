@@ -1,0 +1,1546 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F17576 ]
+[d frameptr 6 ]
+"134 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[e E11333 . `uc
+ADC_CHANNEL_ADCG1 35
+ADC_CHANNEL_VSS 58
+ADC_CHANNEL_TEMPERATURE_INDICATOR 59
+ADC_CHANNEL_DAC1OUT 60
+ADC_CHANNEL_DAC2OUT 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_AND3 27
+ADC_CHANNEL_ANE0 32
+ADC_CHANNEL_ANA0 0
+]
+"173
+[e E11669 . `ui
+POWER_IOC 32
+POWER_CLKR 64
+POWER_NVM 1
+POWER_SCAN 4
+POWER_CRC 2
+POWER_ACT 16
+POWER_SYSC 8
+POWER_TMR0 128
+POWER_TMR1 257
+POWER_TMR2 260
+POWER_TMR3 258
+POWER_TMR4 264
+POWER_TMR6 272
+POWER_CCP1 288
+POWER_CCP2 320
+POWER_PWM1 384
+POWER_CWG1 516
+POWER_NCO1 514
+POWER_PWM2 513
+POWER_CLC1 520
+POWER_CLC2 528
+POWER_CLC3 544
+POWER_CLC4 576
+POWER_MSSP1 776
+POWER_MSSP2 784
+POWER_FVR 800
+POWER_CMLP1 896
+POWER_CM1 832
+POWER_UART1 770
+POWER_UART2 772
+POWER_ADC 1025
+POWER_DAC1 1026
+POWER_DAC2 1028
+POWER_OPA1 1032
+POWER_OPA2 1040
+POWER_OPA3 1056
+POWER_OPA4 1088
+POWER_ZCD 1152
+POWER_APM 1284
+POWER_VREFLP 1282
+POWER_PORTW 1281
+]
+"197 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\adc\src\adc.c
+[e E10957 . `uc
+ADC_CHANNEL_ADCG1 35
+ADC_CHANNEL_VSS 58
+ADC_CHANNEL_TEMPERATURE_INDICATOR 59
+ADC_CHANNEL_DAC1OUT 60
+ADC_CHANNEL_DAC2OUT 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_AND3 27
+ADC_CHANNEL_ANE0 32
+ADC_CHANNEL_ANA0 0
+]
+"222
+[e E10969 . `uc
+ADC_BASIC 0
+ADC_SERIES_ACCUMULATE 1
+ADC_SERIES_AVERAGE 2
+ADC_BURST_AVERAGE 3
+ADC_LOW_PASS_FILTER 4
+]
+"227
+[e E10983 . `uc
+ADC_NEVER_INTERRUPT 0
+ADC_BELOW_LOWER_THRESHOLD 1
+ADC_ABOVE_LOWER_THRESHOLD 2
+ADC_INSIDE_LOWER_AND_UPPER_THRESHOLD 3
+ADC_OUTSIDE_LOWER_AND_UPPER_THRESHOLD 4
+ADC_BELOW_UPPER_THRESHOLD 5
+ADC_ABOVE_UPPER_THRESHOLD 6
+ADC_ALWAYS_INTERRUPT 7
+]
+"366
+[e E11030 . `uc
+ADC_NOT_CONVERTING 0
+ADC_1ST_PRECHARGE 1
+ADC_1ST_ACQUISITION 2
+ADC_1ST_CONVERSION 3
+ADC_SUSPENDED_BETWEEN_1ST_AND_2ND_SAMPLE 4
+ADC_2ND_PRECHARGE 5
+ADC_2ND_ACQUISITION 6
+ADC_2ND_CONVERSION 7
+]
+"371
+[e E10976 . `uc
+ADC_FIRST_DERIVATIVE_OF_SINGLE_MEASUREMENT 0
+ADC_ACTUAL_RESULT_VS_SETPOINT 1
+ADC_ACTUAL_RESULT_VS_FILTERED_VALUE 2
+ADC_FIRST_DERIVATIVE_OF_FILTERED_VALUE 4
+ADC_FILTERED_VALUE_VS_SETPOINT 5
+]
+"391
+[e E10993 . `uc
+ADC_TRIGGER_SOURCE_DISABLED 0
+ADC_TRIGGER_SOURCE_ADACTPPS 1
+ADC_TRIGGER_SOURCE_TMR0 2
+ADC_TRIGGER_SOURCE_TMR1 3
+ADC_TRIGGER_SOURCE_TMR2 4
+ADC_TRIGGER_SOURCE_TMR3 5
+ADC_TRIGGER_SOURCE_TMR4 6
+ADC_TRIGGER_SOURCE_TMR6 7
+ADC_TRIGGER_SOURCE_CCP1 8
+ADC_TRIGGER_SOURCE_CCP2 9
+ADC_TRIGGER_SOURCE_PWM1_OUT1 10
+ADC_TRIGGER_SOURCE_PWM1_OUT2 11
+ADC_TRIGGER_SOURCE_PWM2_OUT1 12
+ADC_TRIGGER_SOURCE_PWM2_OUT2 13
+ADC_TRIGGER_SOURCE_NCO1 14
+ADC_TRIGGER_SOURCE_CMP1 15
+ADC_TRIGGER_SOURCE_CLP1 16
+ADC_TRIGGER_SOURCE_IOC 17
+ADC_TRIGGER_SOURCE_CLC1 18
+ADC_TRIGGER_SOURCE_CLC2 19
+ADC_TRIGGER_SOURCE_CLC3 20
+ADC_TRIGGER_SOURCE_CLC4 21
+ADC_TRIGGER_SOURCE_RW0 29
+ADC_TRIGGER_SOURCE_RW1 30
+ADC_TRIGGER_SOURCE_RW2 31
+ADC_TRIGGER_SOURCE_RW3 32
+ADC_TRIGGER_SOURCE_RW4 33
+ADC_TRIGGER_SOURCE_RW5 34
+ADC_TRIGGER_SOURCE_RW6 35
+ADC_TRIGGER_SOURCE_RW7 36
+ADC_TRIGGER_SOURCE_APM 37
+ADC_TRIGGER_SOURCE_ADERRH 38
+ADC_TRIGGER_SOURCE_ADRESH 39
+ADC_TRIGGER_SOURCE_ADPCH 40
+ADC_TRIGGER_SOURCE_ADNCH 41
+]
+"94 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa1.c
+[e E10998 . `uc
+OPA1_unityGain_NCH_MUX 0
+OPA1_unityGain_OUTPUT 1
+]
+"101
+[e E10953 . `uc
+OPA1_posChannel_IN0 0
+OPA1_posChannel_IN1 1
+OPA1_posChannel_IN2 2
+OPA1_posChannel_IN3 3
+OPA1_posChannel_GSEL 5
+OPA1_posChannel_Vdd_by_2 6
+OPA1_posChannel_DAC1_OUT 7
+OPA1_posChannel_DAC2_OUT 8
+OPA1_posChannel_VSS 9
+]
+"105
+[e E10964 . `uc
+OPA1_negChannel_IN0 0
+OPA1_negChannel_IN1 1
+OPA1_negChannel_IN2 2
+OPA1_negChannel_IN3 3
+OPA1_negChannel_GSEL 5
+OPA1_negChannel_Vdd_by_2 6
+OPA1_negChannel_DAC1_OUT 7
+OPA1_negChannel_DAC2_OUT 8
+OPA1_negChannel_VSS 9
+OPA1_negChannel_No_Connection 15
+]
+"109
+[e E10976 . `uc
+OPA1_negSource_IN0 0
+OPA1_negSource_IN1 1
+OPA1_negSource_IN2 2
+OPA1_negSource_IN3 3
+OPA1_negSource_VSS 7
+]
+"113
+[e E10983 . `uc
+OPA1_R1_15_R2_1 0
+OPA1_R1_14_R2_2 1
+OPA1_R1_12_R2_4 2
+OPA1_R1_8_R2_8 3
+OPA1_R1_6_R2_10 4
+OPA1_R1_4_R2_12 5
+OPA1_R1_2_R2_14 6
+OPA1_R1_1_R2_15 7
+]
+"125
+[e E10993 . `uc
+OPA1_NO_CONNECTION 0
+OPA1_VDD 1
+OPA1_OPA_OUT 2
+]
+"133
+[e E11002 . `uc
+OPA1_FACTORY_DATA 0
+OPA1_USER_DATA 1
+OPA1_CALIBRATION_SEQUENCE 2
+]
+"94 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa2.c
+[e E10999 . `uc
+OPA2_unityGain_NCH_MUX 0
+OPA2_unityGain_OUTPUT 1
+]
+"101
+[e E10953 . `uc
+OPA2_posChannel_IN0 0
+OPA2_posChannel_IN1 1
+OPA2_posChannel_IN2 2
+OPA2_posChannel_IN3 3
+OPA2_posChannel_GSEL 5
+OPA2_posChannel_Vdd_by_2 6
+OPA2_posChannel_DAC1_OUT 7
+OPA2_posChannel_DAC2_OUT 8
+OPA2_posChannel_VSS 9
+]
+"105
+[e E10964 . `uc
+OPA2_negChannel_IN0 0
+OPA2_negChannel_IN1 1
+OPA2_negChannel_IN2 2
+OPA2_negChannel_IN3 3
+OPA2_negChannel_GSEL 5
+OPA2_negChannel_Vdd_by_2 6
+OPA2_negChannel_DAC1_OUT 7
+OPA2_negChannel_DAC2_OUT 8
+OPA2_negChannel_VSS 9
+OPA2_negChannel_No_Connection 15
+]
+"109
+[e E10976 . `uc
+OPA2_negSource_IN0 0
+OPA2_negSource_IN1 1
+OPA2_negSource_IN2 2
+OPA2_negSource_IN3 3
+OPA2_negSource_IN4 4
+OPA2_negSource_VSS 7
+]
+"113
+[e E10984 . `uc
+OPA2_R1_15_R2_1 0
+OPA2_R1_14_R2_2 1
+OPA2_R1_12_R2_4 2
+OPA2_R1_8_R2_8 3
+OPA2_R1_6_R2_10 4
+OPA2_R1_4_R2_12 5
+OPA2_R1_2_R2_14 6
+OPA2_R1_1_R2_15 7
+]
+"125
+[e E10994 . `uc
+OPA2_NO_CONNECTION 0
+OPA2_VDD 1
+OPA2_OPA_OUT 2
+]
+"133
+[e E11003 . `uc
+OPA2_FACTORY_DATA 0
+OPA2_USER_DATA 1
+OPA2_CALIBRATION_SEQUENCE 2
+]
+"54 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\power\src\power.c
+[e E10953 . `ui
+POWER_IOC 32
+POWER_CLKR 64
+POWER_NVM 1
+POWER_SCAN 4
+POWER_CRC 2
+POWER_ACT 16
+POWER_SYSC 8
+POWER_TMR0 128
+POWER_TMR1 257
+POWER_TMR2 260
+POWER_TMR3 258
+POWER_TMR4 264
+POWER_TMR6 272
+POWER_CCP1 288
+POWER_CCP2 320
+POWER_PWM1 384
+POWER_CWG1 516
+POWER_NCO1 514
+POWER_PWM2 513
+POWER_CLC1 520
+POWER_CLC2 528
+POWER_CLC3 544
+POWER_CLC4 576
+POWER_MSSP1 776
+POWER_MSSP2 784
+POWER_FVR 800
+POWER_CMLP1 896
+POWER_CM1 832
+POWER_UART1 770
+POWER_UART2 772
+POWER_ADC 1025
+POWER_DAC1 1026
+POWER_DAC2 1028
+POWER_OPA1 1032
+POWER_OPA2 1040
+POWER_OPA3 1056
+POWER_OPA4 1088
+POWER_ZCD 1152
+POWER_APM 1284
+POWER_VREFLP 1282
+POWER_PORTW 1281
+]
+"43 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"31 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _main main `(i  1 e 2 0 ]
+"86
+[v _initPeripherals initPeripherals `(v  1 e 1 0 ]
+"98
+[v _map map `(us  1 e 2 0 ]
+"104
+[v _updateVuMeter updateVuMeter `(v  1 e 1 0 ]
+"120
+[v _updateNose updateNose `(v  1 e 1 0 ]
+"132
+[v _readGainPot readGainPot `(us  1 e 2 0 ]
+"140
+[v _readOpaOut readOpaOut `(us  1 e 2 0 ]
+"147
+[v _switchISR switchISR `(v  1 e 1 0 ]
+"155
+[v _goToSleep goToSleep `(v  1 e 1 0 ]
+"182
+[v _timerISR timerISR `(v  1 e 1 0 ]
+"44 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"254
+[v _ADC_ChannelSelectAndConvert ADC_ChannelSelectAndConvert `(s  1 e 2 0 ]
+"49 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa1.c
+[v _OPA1_Initialize OPA1_Initialize `(v  1 e 1 0 ]
+"162
+[v _OPA1_DefaultCallback OPA1_DefaultCallback `(v  1 e 1 0 ]
+"49 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa2.c
+[v _OPA2_Initialize OPA2_Initialize `(v  1 e 1 0 ]
+"162
+[v _OPA2_DefaultCallback OPA2_DefaultCallback `(v  1 e 1 0 ]
+"54 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\power\src\power.c
+[v _POWER_PeripheralEnable POWER_PeripheralEnable `(a  1 e 1 0 ]
+"128
+[v _POWER_PeripheralDisableAll POWER_PeripheralDisableAll `(v  1 e 1 0 ]
+"39 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"40 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"59
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"83
+[v _INT_ISR INT_ISR `(v  1 e 1 0 ]
+"92
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"101
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"105
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"47 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"45 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\timer\src\tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"84
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+"128
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"137
+[v _TMR0_PeriodMatchCallbackRegister TMR0_PeriodMatchCallbackRegister `(v  1 e 1 0 ]
+"142
+[v _TMR0_DefaultCallback TMR0_DefaultCallback `(v  1 s 1 TMR0_DefaultCallback ]
+"68 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\uart\src\eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"167
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+"172
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+"187
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"209
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"232
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+"237
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+"244
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"252
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+[s S56 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"354 C:/Users/mikek/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.31.465/xc8\pic\include\proc/pic16f17576.h
+[u S61 . 1 `S56 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES61  1 e 1 @11 ]
+"660
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"722
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"784
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"846
+[v _TRISD TRISD `VEuc  1 e 1 @21 ]
+"908
+[v _TRISE TRISE `VEuc  1 e 1 @22 ]
+"946
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"1008
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S110 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1025
+[u S119 . 1 `S110 1 . 1 0 ]
+[v _LATBbits LATBbits `VES119  1 e 1 @25 ]
+"1070
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S89 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1087
+[u S98 . 1 `S89 1 . 1 0 ]
+[v _LATCbits LATCbits `VES98  1 e 1 @26 ]
+"1132
+[v _LATD LATD `VEuc  1 e 1 @27 ]
+[s S131 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1149
+[u S140 . 1 `S131 1 . 1 0 ]
+[v _LATDbits LATDbits `VES140  1 e 1 @27 ]
+"1194
+[v _LATE LATE `VEuc  1 e 1 @28 ]
+[s S1685 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"1239
+[u S1690 . 1 `S1685 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1690  1 e 1 @140 ]
+[s S2075 . 1 `uc 1 NCO1IF 1 0 :1:0 
+`uc 1 CWG1IF 1 0 :1:1 
+`uc 1 CLC1IF 1 0 :1:2 
+`uc 1 CLC2IF 1 0 :1:3 
+`uc 1 CLC3IF 1 0 :1:4 
+`uc 1 CLC4IF 1 0 :1:5 
+`uc 1 TX1IF 1 0 :1:6 
+`uc 1 RC1IF 1 0 :1:7 
+]
+"1432
+[u S2084 . 1 `S2075 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES2084  1 e 1 @144 ]
+[s S399 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 ZCDIF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 IOCSRIF 1 0 :1:7 
+]
+"1553
+[u S405 . 1 `S399 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES405  1 e 1 @146 ]
+[s S886 . 1 `uc 1 OPA1CIF 1 0 :1:0 
+`uc 1 OPA2CIF 1 0 :1:1 
+`uc 1 OPA3CIF 1 0 :1:2 
+`uc 1 OPA4CIF 1 0 :1:3 
+]
+"1591
+[u S891 . 1 `S886 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES891  1 e 1 @147 ]
+[s S1712 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1629
+[u S1717 . 1 `S1712 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1717  1 e 1 @150 ]
+[s S384 . 1 `uc 1 ADIE 1 0 :1:0 
+`uc 1 ADTIE 1 0 :1:1 
+`uc 1 ZCDIE 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 IOCSRIE 1 0 :1:7 
+]
+"1943
+[u S390 . 1 `S384 1 . 1 0 ]
+[v _PIE6bits PIE6bits `VES390  1 e 1 @156 ]
+"2006
+[v _PMD0 PMD0 `VEuc  1 e 1 @268 ]
+"2068
+[v _PMD1 PMD1 `VEuc  1 e 1 @269 ]
+"2130
+[v _PMD2 PMD2 `VEuc  1 e 1 @270 ]
+"2186
+[v _PMD3 PMD3 `VEuc  1 e 1 @271 ]
+"2243
+[v _PMD4 PMD4 `VEuc  1 e 1 @272 ]
+"2305
+[v _PMD5 PMD5 `VEuc  1 e 1 @273 ]
+"2938
+[v _TMR0L TMR0L `VEuc  1 e 1 @412 ]
+"3076
+[v _TMR0H TMR0H `VEuc  1 e 1 @413 ]
+"3330
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @414 ]
+[s S1895 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"3364
+[s S1901 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S1907 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[s S1913 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S1918 . 1 `S1895 1 . 1 0 `S1901 1 . 1 0 `S1907 1 . 1 0 `S1913 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES1918  1 e 1 @414 ]
+"3454
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @415 ]
+[s S176 . 1 `uc 1 DOZE 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 DOE 1 0 :1:4 
+`uc 1 ROI 1 0 :1:5 
+`uc 1 DOZEN 1 0 :1:6 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"3933
+[s S183 . 1 `uc 1 DOZE0 1 0 :1:0 
+`uc 1 DOZE1 1 0 :1:1 
+`uc 1 DOZE2 1 0 :1:2 
+]
+[u S187 . 1 `S176 1 . 1 0 `S183 1 . 1 0 ]
+[v _CPUDOZEbits CPUDOZEbits `VES187  1 e 1 @652 ]
+"3978
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @653 ]
+"4118
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @655 ]
+"4234
+[v _OSCEN OSCEN `VEuc  1 e 1 @657 ]
+"4291
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @658 ]
+"4349
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @659 ]
+"4389
+[v _ACTCON ACTCON `VEuc  1 e 1 @660 ]
+"12519
+[v _RC1REG RC1REG `VEuc  1 e 1 @1804 ]
+"12539
+[v _TX1REG TX1REG `VEuc  1 e 1 @1805 ]
+"12566
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @1806 ]
+"12586
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @1807 ]
+"12606
+[v _RC1STA RC1STA `VEuc  1 e 1 @1808 ]
+[s S2012 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"12623
+[u S2021 . 1 `S2012 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES2021  1 e 1 @1808 ]
+"12668
+[v _TX1STA TX1STA `VEuc  1 e 1 @1809 ]
+[s S2033 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"12685
+[u S2042 . 1 `S2033 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES2042  1 e 1 @1809 ]
+"12730
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @1810 ]
+[s S2054 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"12747
+[u S2063 . 1 `S2054 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES2063  1 e 1 @1810 ]
+"15823
+[v _OPA1CON0 OPA1CON0 `VEuc  1 e 1 @2316 ]
+[s S899 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 UG 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 EN 1 0 :1:7 
+]
+"15846
+[s S904 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 UG0 1 0 :1:3 
+]
+[s S907 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 OPA1UG 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OPA1EN 1 0 :1:7 
+]
+[u S912 . 1 `S899 1 . 1 0 `S904 1 . 1 0 `S907 1 . 1 0 ]
+[v _OPA1CON0bits OPA1CON0bits `VES912  1 e 1 @2316 ]
+"15876
+[v _OPA1CON1 OPA1CON1 `VEuc  1 e 1 @2317 ]
+[s S1048 . 1 `uc 1 NSS 1 0 :3:0 
+`uc 1 RESON 1 0 :1:3 
+`uc 1 GSEL 1 0 :3:4 
+]
+"15911
+[s S1052 . 1 `uc 1 NSS0 1 0 :1:0 
+`uc 1 NSS1 1 0 :1:1 
+`uc 1 NSS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 GSEL0 1 0 :1:4 
+`uc 1 GSEL1 1 0 :1:5 
+`uc 1 GSEL2 1 0 :1:6 
+]
+[s S1060 . 1 `uc 1 OPA1NSS 1 0 :3:0 
+`uc 1 OPA1RESON 1 0 :1:3 
+`uc 1 OPA1GSEL 1 0 :3:4 
+]
+[s S1064 . 1 `uc 1 OPA1NSS0 1 0 :1:0 
+`uc 1 OPA1NSS1 1 0 :1:1 
+`uc 1 OPA1NSS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 OPA1GSEL0 1 0 :1:4 
+`uc 1 OPA1GSEL1 1 0 :1:5 
+`uc 1 OPA1GSEL2 1 0 :1:6 
+]
+[u S1072 . 1 `S1048 1 . 1 0 `S1052 1 . 1 0 `S1060 1 . 1 0 `S1064 1 . 1 0 ]
+[v _OPA1CON1bits OPA1CON1bits `VES1072  1 e 1 @2317 ]
+"16006
+[v _OPA1CON2 OPA1CON2 `VEuc  1 e 1 @2318 ]
+[s S943 . 1 `uc 1 PCH 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 FMS 1 0 :2:6 
+]
+"16041
+[s S947 . 1 `uc 1 PCH0 1 0 :1:0 
+`uc 1 PCH1 1 0 :1:1 
+`uc 1 PCH2 1 0 :1:2 
+`uc 1 PCH3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 FMS0 1 0 :1:6 
+`uc 1 FMS1 1 0 :1:7 
+]
+[s S955 . 1 `uc 1 OPA1PCH 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 OPA1FMS 1 0 :2:6 
+]
+[s S959 . 1 `uc 1 OPA1PCH0 1 0 :1:0 
+`uc 1 OPA1PCH1 1 0 :1:1 
+`uc 1 OPA1PCH2 1 0 :1:2 
+`uc 1 OPA1PCH3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 OPA1FMS0 1 0 :1:6 
+`uc 1 OPA1FMS1 1 0 :1:7 
+]
+[u S967 . 1 `S943 1 . 1 0 `S947 1 . 1 0 `S955 1 . 1 0 `S959 1 . 1 0 ]
+[v _OPA1CON2bits OPA1CON2bits `VES967  1 e 1 @2318 ]
+"16126
+[v _OPA1CON3 OPA1CON3 `VEuc  1 e 1 @2319 ]
+[s S1008 . 1 `uc 1 NCH 1 0 :5:0 
+]
+"16151
+[s S1010 . 1 `uc 1 NCH0 1 0 :1:0 
+`uc 1 NCH1 1 0 :1:1 
+`uc 1 NCH2 1 0 :1:2 
+`uc 1 NCH3 1 0 :1:3 
+]
+[s S1015 . 1 `uc 1 OPA1NCH 1 0 :5:0 
+]
+[s S1017 . 1 `uc 1 OPA1NCH0 1 0 :1:0 
+`uc 1 OPA1NCH1 1 0 :1:1 
+`uc 1 OPA1NCH2 1 0 :1:2 
+`uc 1 OPA1NCH3 1 0 :1:3 
+]
+[u S1022 . 1 `S1008 1 . 1 0 `S1010 1 . 1 0 `S1015 1 . 1 0 `S1017 1 . 1 0 ]
+[v _OPA1CON3bits OPA1CON3bits `VES1022  1 e 1 @2319 ]
+[s S1115 . 1 `uc 1 OFFSET 1 0 :8:0 
+]
+"16239
+[s S1117 . 1 `uc 1 OFFSET0 1 0 :1:0 
+`uc 1 OFFSET1 1 0 :1:1 
+`uc 1 OFFSET2 1 0 :1:2 
+`uc 1 OFFSET3 1 0 :1:3 
+`uc 1 OFFSET4 1 0 :1:4 
+`uc 1 OFFSET5 1 0 :1:5 
+`uc 1 OFFSET6 1 0 :1:6 
+`uc 1 OFFSET7 1 0 :1:7 
+]
+[s S1126 . 1 `uc 1 OPA1OFFSET 1 0 :8:0 
+]
+[s S1128 . 1 `uc 1 OPA1OFFSET0 1 0 :1:0 
+`uc 1 OPA1OFFSET1 1 0 :1:1 
+`uc 1 OPA1OFFSET2 1 0 :1:2 
+`uc 1 OPA1OFFSET3 1 0 :1:3 
+`uc 1 OPA1OFFSET4 1 0 :1:4 
+`uc 1 OPA1OFFSET5 1 0 :1:5 
+`uc 1 OPA1OFFSET6 1 0 :1:6 
+`uc 1 OPA1OFFSET7 1 0 :1:7 
+]
+[u S1137 . 1 `S1115 1 . 1 0 `S1117 1 . 1 0 `S1126 1 . 1 0 `S1128 1 . 1 0 ]
+[v _OPA1OFFSETbits OPA1OFFSETbits `VES1137  1 e 1 @2320 ]
+"16334
+[v _OPA1CON4 OPA1CON4 `VEuc  1 e 1 @2321 ]
+[s S1169 . 1 `uc 1 OFCSEL 1 0 :2:0 
+`uc 1 OFCST 1 0 :1:2 
+]
+"16357
+[s S1172 . 1 `uc 1 OFCSEL0 1 0 :1:0 
+`uc 1 OFCSEL1 1 0 :1:1 
+]
+[s S1175 . 1 `uc 1 OPA1OFCSEL 1 0 :2:0 
+`uc 1 OPA1OFCST 1 0 :1:2 
+]
+[s S1178 . 1 `uc 1 OPA1OFCSEL0 1 0 :1:0 
+`uc 1 OPA1OFCSEL1 1 0 :1:1 
+]
+[u S1181 . 1 `S1169 1 . 1 0 `S1172 1 . 1 0 `S1175 1 . 1 0 `S1178 1 . 1 0 ]
+[v _OPA1CON4bits OPA1CON4bits `VES1181  1 e 1 @2321 ]
+"16402
+[v _OPA2CON0 OPA2CON0 `VEuc  1 e 1 @2322 ]
+"16425
+[s S1276 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 OPA2UG 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OPA2EN 1 0 :1:7 
+]
+[u S1281 . 1 `S899 1 . 1 0 `S904 1 . 1 0 `S1276 1 . 1 0 ]
+[v _OPA2CON0bits OPA2CON0bits `VES1281  1 e 1 @2322 ]
+"16455
+[v _OPA2CON1 OPA2CON1 `VEuc  1 e 1 @2323 ]
+"16490
+[s S1430 . 1 `uc 1 OPA2NSS 1 0 :3:0 
+`uc 1 OPA2RESON 1 0 :1:3 
+`uc 1 OPA2GSEL 1 0 :3:4 
+]
+[s S1434 . 1 `uc 1 OPA2NSS0 1 0 :1:0 
+`uc 1 OPA2NSS1 1 0 :1:1 
+`uc 1 OPA2NSS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 OPA2GSEL0 1 0 :1:4 
+`uc 1 OPA2GSEL1 1 0 :1:5 
+`uc 1 OPA2GSEL2 1 0 :1:6 
+]
+[u S1442 . 1 `S1048 1 . 1 0 `S1052 1 . 1 0 `S1430 1 . 1 0 `S1434 1 . 1 0 ]
+[v _OPA2CON1bits OPA2CON1bits `VES1442  1 e 1 @2323 ]
+"16585
+[v _OPA2CON2 OPA2CON2 `VEuc  1 e 1 @2324 ]
+"16620
+[s S1324 . 1 `uc 1 OPA2PCH 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 OPA2FMS 1 0 :2:6 
+]
+[s S1328 . 1 `uc 1 OPA2PCH0 1 0 :1:0 
+`uc 1 OPA2PCH1 1 0 :1:1 
+`uc 1 OPA2PCH2 1 0 :1:2 
+`uc 1 OPA2PCH3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 OPA2FMS0 1 0 :1:6 
+`uc 1 OPA2FMS1 1 0 :1:7 
+]
+[u S1336 . 1 `S943 1 . 1 0 `S947 1 . 1 0 `S1324 1 . 1 0 `S1328 1 . 1 0 ]
+[v _OPA2CON2bits OPA2CON2bits `VES1336  1 e 1 @2324 ]
+"16705
+[v _OPA2CON3 OPA2CON3 `VEuc  1 e 1 @2325 ]
+"16730
+[s S1384 . 1 `uc 1 OPA2NCH 1 0 :5:0 
+]
+[s S1386 . 1 `uc 1 OPA2NCH0 1 0 :1:0 
+`uc 1 OPA2NCH1 1 0 :1:1 
+`uc 1 OPA2NCH2 1 0 :1:2 
+`uc 1 OPA2NCH3 1 0 :1:3 
+]
+[u S1391 . 1 `S1008 1 . 1 0 `S1010 1 . 1 0 `S1384 1 . 1 0 `S1386 1 . 1 0 ]
+[v _OPA2CON3bits OPA2CON3bits `VES1391  1 e 1 @2325 ]
+"16818
+[s S1496 . 1 `uc 1 OPA2OFFSET 1 0 :8:0 
+]
+[s S1498 . 1 `uc 1 OPA2OFFSET0 1 0 :1:0 
+`uc 1 OPA2OFFSET1 1 0 :1:1 
+`uc 1 OPA2OFFSET2 1 0 :1:2 
+`uc 1 OPA2OFFSET3 1 0 :1:3 
+`uc 1 OPA2OFFSET4 1 0 :1:4 
+`uc 1 OPA2OFFSET5 1 0 :1:5 
+`uc 1 OPA2OFFSET6 1 0 :1:6 
+`uc 1 OPA2OFFSET7 1 0 :1:7 
+]
+[u S1507 . 1 `S1115 1 . 1 0 `S1117 1 . 1 0 `S1496 1 . 1 0 `S1498 1 . 1 0 ]
+[v _OPA2OFFSETbits OPA2OFFSETbits `VES1507  1 e 1 @2326 ]
+"16913
+[v _OPA2CON4 OPA2CON4 `VEuc  1 e 1 @2327 ]
+"16936
+[s S1545 . 1 `uc 1 OPA2OFCSEL 1 0 :2:0 
+`uc 1 OPA2OFCST 1 0 :1:2 
+]
+[s S1548 . 1 `uc 1 OPA2OFCSEL0 1 0 :1:0 
+`uc 1 OPA2OFCSEL1 1 0 :1:1 
+]
+[u S1551 . 1 `S1169 1 . 1 0 `S1172 1 . 1 0 `S1545 1 . 1 0 `S1548 1 . 1 0 ]
+[v _OPA2CON4bits OPA2CON4bits `VES1551  1 e 1 @2327 ]
+"19927
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @7436 ]
+"20055
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @7437 ]
+"20190
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @7438 ]
+"20318
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @7439 ]
+"20453
+[v _ADERRL ADERRL `VEuc  1 e 1 @7440 ]
+"20581
+[v _ADERRH ADERRH `VEuc  1 e 1 @7441 ]
+"20716
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @7442 ]
+"20844
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @7443 ]
+"20979
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @7444 ]
+"21107
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @7445 ]
+"21244
+[v _ADACCL ADACCL `VEuc  1 e 1 @7446 ]
+"21372
+[v _ADACCH ADACCH `VEuc  1 e 1 @7447 ]
+"21500
+[v _ADACCU ADACCU `VEuc  1 e 1 @7448 ]
+"21556
+[v _ADCNT ADCNT `VEuc  1 e 1 @7449 ]
+"21684
+[v _ADRPT ADRPT `VEuc  1 e 1 @7450 ]
+"21819
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @7451 ]
+"21947
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @7452 ]
+"22082
+[v _ADRESL ADRESL `VEuc  1 e 1 @7453 ]
+"22210
+[v _ADRESH ADRESH `VEuc  1 e 1 @7454 ]
+"22330
+[v _ADPCH ADPCH `VEuc  1 e 1 @7455 ]
+"22396
+[v _ADNCH ADNCH `VEuc  1 e 1 @7456 ]
+"22469
+[v _ADACQL ADACQL `VEuc  1 e 1 @7457 ]
+"22597
+[v _ADACQH ADACQH `VEuc  1 e 1 @7458 ]
+"22689
+[v _ADCAP ADCAP `VEuc  1 e 1 @7459 ]
+"22748
+[v _ADPREL ADPREL `VEuc  1 e 1 @7460 ]
+"22876
+[v _ADPREH ADPREH `VEuc  1 e 1 @7461 ]
+"22968
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @7462 ]
+[s S330 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 IC 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 . 1 0 :2:4 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"23003
+[s S337 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 ADIC 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S344 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S349 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[u S354 . 1 `S330 1 . 1 0 `S337 1 . 1 0 `S344 1 . 1 0 `S349 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES354  1 e 1 @7462 ]
+"23088
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @7463 ]
+[s S666 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 PCSC 1 0 :1:1 
+`uc 1 . 1 0 :3:2 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"23111
+[s S673 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 ADPCSC 1 0 :1:1 
+`uc 1 . 1 0 :3:2 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[u S680 . 1 `S666 1 . 1 0 `S673 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES680  1 e 1 @7463 ]
+"23166
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @7464 ]
+[s S472 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"23214
+[s S477 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S486 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S490 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[s S498 . 1 `uc 1 MD 1 0 :3:0 
+]
+[s S500 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+]
+[s S504 . 1 `uc 1 ADMODE 1 0 :3:0 
+]
+[u S506 . 1 `S472 1 . 1 0 `S477 1 . 1 0 `S486 1 . 1 0 `S490 1 . 1 0 `S498 1 . 1 0 `S500 1 . 1 0 `S504 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES506  1 e 1 @7464 ]
+"23344
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @7465 ]
+[s S558 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"23379
+[s S562 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S570 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S574 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S582 . 1 `S558 1 . 1 0 `S562 1 . 1 0 `S570 1 . 1 0 `S574 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES582  1 e 1 @7465 ]
+"23474
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @7466 ]
+[s S612 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 AOV 1 0 :1:7 
+]
+"23509
+[s S619 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S628 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S632 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+]
+[u S636 . 1 `S612 1 . 1 0 `S619 1 . 1 0 `S628 1 . 1 0 `S632 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES636  1 e 1 @7466 ]
+"23599
+[v _ADREF ADREF `VEuc  1 e 1 @7467 ]
+"23681
+[v _ADACT ADACT `VEuc  1 e 1 @7468 ]
+"23785
+[v _ADCLK ADCLK `VEuc  1 e 1 @7469 ]
+"23925
+[v _ADCG1A ADCG1A `VEuc  1 e 1 @7470 ]
+"23987
+[v _ADCG1B ADCG1B `VEuc  1 e 1 @7471 ]
+"24049
+[v _ADCG1C ADCG1C `VEuc  1 e 1 @7472 ]
+"24111
+[v _ADCG1D ADCG1D `VEuc  1 e 1 @7473 ]
+"24173
+[v _ADCG1E ADCG1E `VEuc  1 e 1 @7474 ]
+"24565
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @7582 ]
+"24925
+[v _INTPPS INTPPS `VEuc  1 e 1 @7693 ]
+"25819
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @7746 ]
+"26267
+[v _ANSELA ANSELA `VEuc  1 e 1 @7820 ]
+"26379
+[v _WPUA WPUA `VEuc  1 e 1 @7821 ]
+"26441
+[v _ODCONA ODCONA `VEuc  1 e 1 @7822 ]
+"26503
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7823 ]
+"26565
+[v _INLVLA INLVLA `VEuc  1 e 1 @7824 ]
+"26627
+[v _IOCAP IOCAP `VEuc  1 e 1 @7825 ]
+"26689
+[v _IOCAN IOCAN `VEuc  1 e 1 @7826 ]
+"26751
+[v _IOCAF IOCAF `VEuc  1 e 1 @7827 ]
+"26813
+[v _ANSELB ANSELB `VEuc  1 e 1 @7830 ]
+"26925
+[v _WPUB WPUB `VEuc  1 e 1 @7831 ]
+"26987
+[v _ODCONB ODCONB `VEuc  1 e 1 @7832 ]
+"27049
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @7833 ]
+"27111
+[v _INLVLB INLVLB `VEuc  1 e 1 @7834 ]
+"27173
+[v _IOCBP IOCBP `VEuc  1 e 1 @7835 ]
+"27235
+[v _IOCBN IOCBN `VEuc  1 e 1 @7836 ]
+"27297
+[v _IOCBF IOCBF `VEuc  1 e 1 @7837 ]
+"27359
+[v _ANSELC ANSELC `VEuc  1 e 1 @7840 ]
+"27471
+[v _WPUC WPUC `VEuc  1 e 1 @7841 ]
+"27533
+[v _ODCONC ODCONC `VEuc  1 e 1 @7842 ]
+"27595
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @7843 ]
+"27657
+[v _INLVLC INLVLC `VEuc  1 e 1 @7844 ]
+"27719
+[v _IOCCP IOCCP `VEuc  1 e 1 @7845 ]
+"27781
+[v _IOCCN IOCCN `VEuc  1 e 1 @7846 ]
+"27843
+[v _IOCCF IOCCF `VEuc  1 e 1 @7847 ]
+"27905
+[v _ANSELD ANSELD `VEuc  1 e 1 @7850 ]
+"28017
+[v _WPUD WPUD `VEuc  1 e 1 @7851 ]
+"28079
+[v _ODCOND ODCOND `VEuc  1 e 1 @7852 ]
+"28141
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @7853 ]
+"28203
+[v _INLVLD INLVLD `VEuc  1 e 1 @7854 ]
+"28265
+[v _ANSELE ANSELE `VEuc  1 e 1 @7860 ]
+"28317
+[v _WPUE WPUE `VEuc  1 e 1 @7861 ]
+"28355
+[v _ODCONE ODCONE `VEuc  1 e 1 @7862 ]
+"28387
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @7863 ]
+"28419
+[v _INLVLE INLVLE `VEuc  1 e 1 @7864 ]
+"28457
+[v _IOCEP IOCEP `VEuc  1 e 1 @7865 ]
+"28478
+[v _IOCEN IOCEN `VEuc  1 e 1 @7866 ]
+"28499
+[v _IOCEF IOCEF `VEuc  1 e 1 @7867 ]
+"28520
+[v _IOCWP IOCWP `VEuc  1 e 1 @7885 ]
+"28582
+[v _IOCWN IOCWN `VEuc  1 e 1 @7886 ]
+"28644
+[v _IOCWF IOCWF `VEuc  1 e 1 @7887 ]
+"20 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _pollAdc pollAdc `a  1 e 1 0 ]
+"21
+[v _pollAdcCounter pollAdcCounter `us  1 e 2 0 ]
+"22
+[v _gainPotPos gainPotPos `us  1 e 2 0 ]
+"23
+[v _opaOutput opaOutput `us  1 e 2 0 ]
+"24
+[v _adcSamples adcSamples `[10]us  1 e 20 0 ]
+"25
+[v _adcAccumulatorCounter adcAccumulatorCounter `uc  1 e 1 0 ]
+"26
+[v _opaDataReady opaDataReady `a  1 e 1 0 ]
+"28
+[v _badgeState badgeState `a  1 e 1 0 ]
+"29
+[v _sleepTimer sleepTimer `ul  1 e 4 0 ]
+"41 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_ConversionDoneCallback ADC_ConversionDoneCallback `*.37(v  1 s 2 ADC_ConversionDoneCallback ]
+"42
+[v _ADC_ThresholdCallback ADC_ThresholdCallback `*.37(v  1 s 2 ADC_ThresholdCallback ]
+"43 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa1.c
+[v _callBackHandler callBackHandler `*.37(v  1 s 2 callBackHandler ]
+"43 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa2.c
+[v _callBackHandler@opa2$F1572 callBackHandler `*.37(v  1 s 2 callBackHandler ]
+"38 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"38 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\timer\src\tmr0.c
+[v _TMR0_PeriodMatchCallback TMR0_PeriodMatchCallback `*.37(v  1 s 2 TMR0_PeriodMatchCallback ]
+[s S1975 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"51 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\uart\src\eusart1.c
+[u S1980 . 2 `S1975 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES1980  1 s 2 eusart1RxLastError ]
+"57
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 s 2 EUSART1_FramingErrorHandler ]
+"58
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 s 2 EUSART1_OverrunErrorHandler ]
+"31 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"48
+[v main@i i `i  1 a 2 70 ]
+"47
+[v main@max_sample max_sample `us  1 a 2 68 ]
+"46
+[v main@min_sample min_sample `us  1 a 2 66 ]
+"71
+[v main@opaOutputAdjusted opaOutputAdjusted `us  1 a 2 64 ]
+"84
+} 0
+"140
+[v _readOpaOut readOpaOut `(us  1 e 2 0 ]
+{
+"143
+[v readOpaOut@adc_vss_raw adc_vss_raw `s  1 a 2 7 ]
+"142
+[v readOpaOut@opa_out_raw opa_out_raw `s  1 a 2 5 ]
+"145
+} 0
+"132
+[v _readGainPot readGainPot `(us  1 e 2 0 ]
+{
+"135
+[v readGainPot@adc_vss_raw adc_vss_raw `s  1 a 2 7 ]
+"134
+[v readGainPot@gain_pot_raw gain_pot_raw `s  1 a 2 5 ]
+"137
+} 0
+"254 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_ChannelSelectAndConvert ADC_ChannelSelectAndConvert `(s  1 e 2 0 ]
+{
+[v ADC_ChannelSelectAndConvert@channel channel `E10957  1 p 1 wreg ]
+[v ADC_ChannelSelectAndConvert@channel channel `E10957  1 p 1 wreg ]
+"256
+[v ADC_ChannelSelectAndConvert@channel channel `E10957  1 p 1 2 ]
+"264
+} 0
+"98 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _map map `(us  1 e 2 0 ]
+{
+[v map@in_num in_num `us  1 p 2 0 ]
+[v map@in_min in_min `us  1 p 2 2 ]
+[v map@in_max in_max `us  1 p 2 4 ]
+[v map@out_min out_min `us  1 p 2 6 ]
+[v map@out_max out_max `us  1 p 2 8 ]
+"101
+} 0
+"15 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 10 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
+"30
+} 0
+"155 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _goToSleep goToSleep `(v  1 e 1 0 ]
+{
+"180
+} 0
+"104
+[v _updateVuMeter updateVuMeter `(v  1 e 1 0 ]
+{
+[v updateVuMeter@num num `uc  1 p 1 wreg ]
+"108
+[v updateVuMeter@vu_num vu_num `uc  1 a 1 3 ]
+"104
+[v updateVuMeter@num num `uc  1 p 1 wreg ]
+"106
+[v updateVuMeter@num num `uc  1 p 1 2 ]
+"117
+} 0
+"120
+[v _updateNose updateNose `(v  1 e 1 0 ]
+{
+[v updateNose@num num `uc  1 p 1 wreg ]
+"124
+[v updateNose@nose_num nose_num `uc  1 a 1 3 ]
+"120
+[v updateNose@num num `uc  1 p 1 wreg ]
+"122
+[v updateNose@num num `uc  1 p 1 2 ]
+"129
+} 0
+"86
+[v _initPeripherals initPeripherals `(v  1 e 1 0 ]
+{
+"96
+} 0
+"137 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\timer\src\tmr0.c
+[v _TMR0_PeriodMatchCallbackRegister TMR0_PeriodMatchCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR0_PeriodMatchCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"140
+} 0
+"47 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"45 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\timer\src\tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"60 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\system.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"38 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"135
+} 0
+"49 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa2.c
+[v _OPA2_Initialize OPA2_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"49 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\opa\src\opa1.c
+[v _OPA1_Initialize OPA1_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"40 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"101
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"103
+} 0
+"68 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\uart\src\eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"252
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"258
+} 0
+"244
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"250
+} 0
+"39 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"44 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"137
+} 0
+"84 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\timer\src\tmr0.c
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+{
+"87
+} 0
+"54 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\power\src\power.c
+[v _POWER_PeripheralEnable POWER_PeripheralEnable `(a  1 e 1 0 ]
+{
+"56
+[v POWER_PeripheralEnable@settingData settingData `uc  1 a 1 3 ]
+"55
+[v POWER_PeripheralEnable@registerData registerData `uc  1 a 1 2 ]
+"54
+[v POWER_PeripheralEnable@peripheral peripheral `E10953  1 p 2 0 ]
+"89
+} 0
+"128
+[v _POWER_PeripheralDisableAll POWER_PeripheralDisableAll `(v  1 e 1 0 ]
+{
+"135
+} 0
+"10 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 8 ]
+"44
+} 0
+"43 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 61 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 60 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 52 ]
+"70
+} 0
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S2474 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S2479 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S2482 . 4 `l 1 i 4 0 `d 1 f 4 0 `S2474 1 fAsBytes 4 0 `S2479 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S2482  1 a 4 46 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 40 ]
+[s S2551 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2554 . 2 `s 1 i 2 0 `us 1 n 2 0 `S2551 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2554  1 a 2 50 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 45 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 44 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 39 ]
+"8
+[v ___flmul@b b `d  1 p 4 26 ]
+[v ___flmul@a a `d  1 p 4 30 ]
+"205
+} 0
+"4 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 p 1 8 ]
+"60
+} 0
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 18 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"59 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"81
+} 0
+"128 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\timer\src\tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"135
+} 0
+"142
+[v _TMR0_DefaultCallback TMR0_DefaultCallback `(v  1 s 1 TMR0_DefaultCallback ]
+{
+"145
+} 0
+"182 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _timerISR timerISR `(v  1 e 1 0 ]
+{
+"197
+} 0
+"83 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INT_ISR INT_ISR `(v  1 e 1 0 ]
+{
+"89
+} 0
+"92
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+{
+"99
+} 0
+"105
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"108
+} 0
+"147 C:\Users\mikek\Documents\MPLAB\pic16f17576_open_sauce_badge_v1\config.mcc\main.c
+[v _switchISR switchISR `(v  1 e 1 0 ]
+{
+"153
+} 0
